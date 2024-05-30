@@ -1,41 +1,70 @@
-# Website
+# Maya Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository hosts documentation and guides for users looking to use and build on the Maya Protocol.
 
-### Installation
+## Overview
 
+Maya Protocol is the first authenticity layer, leveraging zero-knowledge technology to offer seamless and secure authenticity verification of digital media content. Our approach eliminates the need for third-party intermediaries, ensuring content credibility for creators of high-value media content and combating AI-deepfakes.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Local Development](#local-development)
+- [Build](#build)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To get started with the Maya Docs site, clone the repository and install the dependencies:
+
+```sh
+$ git clone https://github.com/0xmayalabs/maya-docs.git
+$ cd maya-docs
+$ npm install
 ```
-$ yarn
-```
 
-### Local Development
+## Local Development
 
-```
-$ yarn start
+To start the local development server, run:
+
+```sh
+$ npm run start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build
 
-```
-$ yarn build
-```
+To build the static site for production, run:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```sh
+$ npm run build
 ```
 
-Not using SSH:
+The static files will be generated in the `build` directory.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+## Deployment
+
+The site is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch. This is handled by a GitHub Actions workflow defined in `.github/workflows/deploy.yml`.
+
+If you need to manually deploy the site, you can run:
+
+```sh
+$ npm run deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contributing
+
+We welcome contributions to improve the documentation. To contribute:
+
+1. Fork the repository.
+2. Create a new branch with your changes: `git checkout -b my-feature-branch`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin my-feature-branch`
+5. Create a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
