@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/privacy.svg').default,
     description: (
       <>
-          Maya Protocol ensures the authenticity of digital media with a zero-knowledge approach,
+          Maya ensures the authenticity of digital media with a zero-knowledge approach,
           preserving privacy while providing robust verification.
       </>
     ),
@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/secure.svg').default,
     description: (
       <>
-          Maya Protocol leverages advanced cryptographic techniques to provide secure
+          Maya leverages advanced cryptographic techniques to provide secure
           verification without reliance on third-party attestations.
       </>
     ),
