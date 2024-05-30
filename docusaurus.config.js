@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://0xmayalabs.github.io',
+  url: 'https://docs.mayalabs.tech',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/maya-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -69,12 +69,12 @@ const config = {
             position: 'right',
           },
           {
-            href: "https://0xmayalabs.github.io/maya-docs/litepaper.pdf",
+            href: "https://docs.mayalabs.tech/litepaper.pdf",
             label: "Litepaper",
             position: 'right',
           },
           {
-            href: 'https://github.com/0xmayalabs/docs',
+            href: 'https://github.com/0xmayalabs',
             label: 'GitHub',
             position: 'right',
           },
@@ -122,7 +122,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/0xmayalabs/docs',
+                href: 'https://github.com/0xmayalabs',
               },
             ],
           },
