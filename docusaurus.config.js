@@ -69,7 +69,7 @@ const config = {
             position: 'right',
           },
           {
-            href: "/maya-docs/litepaper.pdf",
+            href: "https://0xmayalabs.github.io/maya-docs/litepaper.pdf",
             label: "Litepaper",
             position: 'right',
           },
