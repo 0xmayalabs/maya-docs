@@ -56,11 +56,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/maya.PNG',
       navbar: {
-        title: 'Maya',
-        style: 'dark',
+        title: '',
+        style: 'primary',
         logo: {
           alt: 'Maya Logo',
-          src: 'img/LogoMark-White.svg',
+          src: 'img/logo-white.svg',
         },
         items: [
           {
