@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/secure.svg').default,
     description: (
       <>
-          Maya Labs offers leverages advanced cryptographic techniques to provide secure
+          Maya Protocol leverages advanced cryptographic techniques to provide secure
           verification without reliance on third-party attestations.
       </>
     ),
