@@ -138,6 +138,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap',
+  ],
 };
 
 export default config;

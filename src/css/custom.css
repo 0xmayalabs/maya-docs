@@ -12,8 +12,8 @@
   --ifm-color-primary-lighter: #7996ff;
 
   --ifm-background-color: #EDEDFD;
-  --ifm-font-family-base: 'Satoshi', sans-serif;
-  --ifm-font-family-monospace: 'Satoshi', monospace;
+  --ifm-font-family-base: 'Satoshi', 'Plus Jakarta Sans', sans-serif;
+  --ifm-font-family-monospace: 'Satoshi', 'Plus Jakarta Sans', monospace;
 }
 
 /* Custom background for the entire site */
@@ -34,4 +34,5 @@ html, body {
 /* Typography customization */
 p, h1, h2, h3, h4, h5, h6, li, a, span {
   font-family: var(--ifm-font-family-base) !important;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
