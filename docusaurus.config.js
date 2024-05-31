@@ -41,7 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/0xmayalabs/maya-docs/edit/main/website/',
+          editUrl: 'https://github.com/0xmayalabs/maya-docs/edit/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
