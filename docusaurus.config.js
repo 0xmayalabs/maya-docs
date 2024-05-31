@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Maya Protocol',
-  tagline: 'Digital Authenticity Layer of the Internet',
+  tagline: 'Authenticity Layer of the Internet',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

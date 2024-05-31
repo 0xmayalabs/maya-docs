@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/privacy.svg').default,
     description: (
       <>
-          Maya ensures the authenticity of digital media with a zero-knowledge approach,
+          Maya ensures the authenticity of media with a zero-knowledge approach,
           preserving privacy while providing robust verification.
       </>
     ),
@@ -19,7 +19,7 @@ const FeatureList = [
     description: (
       <>
         Maya is a decentralized, credibly neutral protocol that removes the need for
-          trust in centralized institutions, ensuring trustless verification.
+          trust in centralized institutions.
       </>
     ),
   },
@@ -29,15 +29,25 @@ const FeatureList = [
     description: (
       <>
           Maya leverages advanced cryptographic techniques to provide secure
-          verification without reliance on third-party attestations.
+          verification eliminating human errors.
       </>
     ),
   },
+    {
+        title: 'Trustless verification',
+        Svg: require('@site/static/img/verified.svg').default,
+        description: (
+            <>
+                Maya allows permissionless content verification by
+                eliminating the reliance on third-party attestations.
+            </>
+        ),
+    },
 ];
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>

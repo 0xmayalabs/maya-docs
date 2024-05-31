@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title="Maya Protocol"
-      description="The Digital Authenticity Layer of the Internet">
+      description="The Authenticity Layer of the Internet">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
