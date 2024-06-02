@@ -25,7 +25,15 @@ legally sourced, ensuring compliance with regulations such as the [EU AI Act](ht
 
 ## Integration
 
-You can hook Maya's SDK (in development) in your data collection workflows to track the provenance
-of data from source to subsequent processing steps like normalization, reduction & partitioning.
+You can integrate Maya’s SDK **(currently in development)** into your data collection & processing pipelines to ensure verifiability
+of final data from the source through subsequent processing steps such as normalization, reduction and sanitization.
+
+Steps for Integration:
+1.	**Install the SDK**: Add the Maya SDK to your data processing pipelines to enable cryptographic verifiability of final data.
+2.	**Initialize the SDK**: Configure the SDK with your project-specific settings to start tracking data modifications.
+3.	**Track Data Provenance**: Use the SDK to prove and store the provenance of data at each stage of your workflow.
+4.	**Verify Data Integrity**: Ensure the integrity of your data at any point in your workflow using the SDK’s verification features.
+
+Get in touch with the team for more details.
 
 Note: This page is in progress.

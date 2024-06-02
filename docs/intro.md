@@ -12,7 +12,7 @@ and secure authenticity verification of digital media content. Our approach elim
 credibility for creators of high-value media content and combating AI-deepfakes.
 
 ## Maya Protocol
-The digital authenticity layer is secured by the **Maya Protocol**, a decentralized protocol for digital media authenticity.
+The authenticity layer is secured by the **Maya Protocol**, a decentralized protocol for media authenticity.
 The protocol leverages **zero-knowledge technology** to enable onchain verification of media authenticity, thus enhancing privacy and content integrity in the AI-driven digital landscape.
 
 Our protocol serves as the **foundational layer** that is **open and credibly neutral**, allowing anyone to certify the authenticity of their images, audios, or videos.
