@@ -34,6 +34,6 @@ Steps for Integration:
 3.	**Track Data Provenance**: Use the SDK to prove and store the provenance of data at each stage of your workflow.
 4.	**Verify Data Integrity**: Ensure the integrity of your data at any point in your workflow using the SDK’s verification features.
 
-Get in touch with the team for more details.
+Get in touch with the [team](https://discord.com/invite/HpCPQwWtkr) for more details.
 
 Note: This page is in progress.
