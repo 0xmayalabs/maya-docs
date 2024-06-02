@@ -22,12 +22,6 @@ the integrity and trustworthiness of AI-generated content.
 
 Maya provides SDKs **(currently in development)** that directly integrate with AI inference platforms to attest to AI-generated content at the source.
 
-For inference platforms, such as generative AI platforms, follow these steps:
-
-1.	**Install the SDK**: Incorporate the Maya SDK into your inference platform to enable real-time attestation of AI-generated content.
-2.	**Initialize the SDK**: Set up the SDK with your specific configuration to start attesting inference outputs.
-3. **Attest Content Integrity**: Utilize the SDK to generate and attach verifiable proofs to AI-generated content, ensuring it is traceable and ethically produced.
-
 Get in touch with the [team](https://discord.com/invite/HpCPQwWtkr) for more details.
 
 Note: This page is in progress.
