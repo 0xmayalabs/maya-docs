@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# AI Transparency
+# Transparency
 
-This guide will walk you through the ways Maya can help AI systems to ensure
-transparency and regulatory compliance.
+Maya enables unparalleled end-to-end transparency in AI systems by providing verifiable information about the origins
+of training data and traceability of AI inference outputs.
 
-Note: This page is in progress.
+![AI Transparency](/img/ai-transparency.png)

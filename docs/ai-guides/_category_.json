@@ -1,8 +1,8 @@
 {
   "label": "AI Guides",
-  "position": 4,
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Using Maya to provide AI transparency for regulatory compliances."
+    "description": "Guides to walk you through how Maya can help AI systems to ensure\ntransparency and regulatory compliance."
   }
 }
