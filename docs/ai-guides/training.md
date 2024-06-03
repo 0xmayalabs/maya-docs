@@ -20,6 +20,8 @@ ensuring confidence in the origins of training data.
 ensuring only data with user consent is used and that it is not sourced from a “do not train” database.
 3. **Ethical and Legal Compliance**: AI training platforms can verify that the training data is ethically and 
 legally sourced, ensuring compliance with regulations such as the [EU AI Act](https://artificialintelligenceact.eu/).
+4. **Prevent Malicious Behavior**: Maya ensures that malicious training data is not used, preventing potential harmful behavior
+of AI models and helping to identify and understand inherent model biases.
 
 ![AI Training](/img/ai-training.png)
 
