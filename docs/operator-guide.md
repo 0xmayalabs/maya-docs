@@ -94,4 +94,4 @@ docker compose up -d
 
 ## Troubleshooting
 
-If you encounter any issues, join our discord group: https://discord.gg/HpCPQwWtkr
+If you encounter any issues, please join our discord group for support: https://discord.gg/HpCPQwWtkr
