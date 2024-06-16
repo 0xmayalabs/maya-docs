@@ -85,7 +85,7 @@ Note:
 - The optional parameters will be the ones that will be displayed on the EigenLayer UI.
 
 6. Add environment variables for `L1_RPC` and `L2_RPC`.
-- The `L1_RPC` and `L2_RPC` should be holesky and polygon amoy respectively. The RPC links can also be obtained from [ankr](https://ankr.com).
+- The `L1_RPC` and `L2_RPC` should be [Holesky](https://github.com/eth-clients/holesky) and [Polygon](https://polygon.technology/blog/introducing-the-amoy-testnet-for-polygon-pos) Amoy respectively. The RPC links can also be obtained from [Ankr](https://ankr.com).
 
 7. After the operator is registered and .env is completed then execute the following command to start validating Maya AVS.
 ```shell
