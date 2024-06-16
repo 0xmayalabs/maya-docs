@@ -6,14 +6,14 @@ sidebar_position: 5
 
 ## Prerequisites
 
-Here are some prerequisites that are needed before configuring Maya AVS operator:
-- Git and Docker installed
+Before configuring Maya AVS operator, ensure you have the following prerequisites:
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker](https://docs.docker.com/engine/install/) installed
 - Ethereum wallet private key in plain text
-- Ensure the wallet has sufficient holesky ETH that you want to restake
+- Sufficient Holesky ETH in the Ethereum wallet for restaking
 
 ## Steps
 
-Following are the steps to run Maya AVS Operator to participate in generating proofs of authenticity for the Maya Protocol.
+Follow these steps to run the Maya AVS Operator and participate in generating proofs of authenticity for the Maya Protocol.
 
 1. Clone the Maya AVS repository.
 ```shell
@@ -21,13 +21,13 @@ git clone https://github.com/0xmayalabs/maya-avs.git
 cd maya-avs
 ```
 
-2. Pull the maya operator image.
+2. Pull the Maya Operator docker image.
 ```shell
 docker pull 0xmayalabs/maya-operator:v0.0.3
 ```
 
-3. Create the .env file with all the required information for the following steps. Copy the template below into the newly created .env file.
-```
+3. Create the `.env` file with all the required information for the following steps. Copy the template below into the newly created `.env` file.
+```shell
 # Maya Operator environment variables
 
 PRIVATE_KEY=
@@ -62,8 +62,11 @@ AVS_PRIVATE_KEY= # Same as PRIVATE_KEY defined above
 AVS_OPERATOR_RPC=http://34.121.50.170:8545
 ```
 
-4. Before registering the operator to the Maya Network, ensure that you have a private key for an ethereum address with sufficient funds that you want to restake in Holesky ETH.
-The private key will be needed when registering the operator. Add the private key to the .env file in the `PRIVATE_KEY` and `AVS_PRIVATE_KEY` fields.
+4. Add the private key to the `.env` file in the `PRIVATE_KEY` and `AVS_PRIVATE_KEY` fields.
+:::note
+Before registering the operator to the Maya Network, ensure you have a private key for an Ethereum address with sufficient funds for restaking in Holesky ETH. 
+The private key will be needed when registering the operator.
+:::
 
 5. Register your operator with the Maya Network by executing the following interactive command:
 ```shell
@@ -80,18 +83,20 @@ The above command will ask for the following information:
 - Logo URL (Optional)
 - Twitter profile (Optional)
 
-Note:
-- The above command can take upto a couple of minutes to complete.
-- The optional parameters will be the ones that will be displayed on the EigenLayer UI.
+:::note
+- The above command can take up to a couple of minutes to complete.
+- The optional parameters will be displayed on the EigenLayer UI.
+:::
 
 6. Add environment variables for `L1_RPC` and `L2_RPC`.
-- The `L1_RPC` and `L2_RPC` should be [Holesky](https://github.com/eth-clients/holesky) and [Polygon](https://polygon.technology/blog/introducing-the-amoy-testnet-for-polygon-pos) Amoy respectively. The RPC links can also be obtained from [Ankr](https://ankr.com).
+- The `L1_RPC` and `L2_RPC` should be [Holesky](https://github.com/eth-clients/holesky) and [Polygon Amoy](https://polygon.technology/blog/introducing-the-amoy-testnet-for-polygon-pos) respectively.
+- The RPC links can also be obtained from [Ankr](https://ankr.com).
 
-7. After the operator is registered and .env is completed then execute the following command to start validating Maya AVS.
+7. After the operator is registered and `.env` is completed, execute the following command to start validating Maya AVS.
 ```shell
 docker compose up -d
 ```
 
 ## Troubleshooting
 
-If you encounter any issues, please join our discord group for support: https://discord.gg/HpCPQwWtkr
+If you encounter any issues, please join our discord group for support: https://discord.gg/HpCPQwWtkr.
